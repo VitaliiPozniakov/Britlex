@@ -9,6 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+
+
+    <link rel="stylesheet" href="./css/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,8 +22,33 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header>
-      <!-- Oleksandr -->
+    <!-- Oleksandr -->
+    <header class="header">
+      <div class="container nav-container">
+        <nav class="header-nav">
+          <a class="logo" href="./index.html"
+            ><span class="logo-brit">Brit</span>lex</a
+          >
+          <ul class="header-list">
+            <li class="item">
+              <a class="link-home" href="#contacts">Home</a>
+            </li>
+            <li class="item">
+              <a class="link-skills" href="#contacts">Skills</a>
+            </li>
+            <li class="item">
+              <a class="link-about" href="#contacts">Aboutub</a>
+            </li>
+ <li class="item">
+              <a class="link-pricing" href="#contacts">Pricing</a>
+            </li>
+
+ <li class="item">
+              <a class="link-contacts" href="#contacts">Aboutub</a>
+            </li>
+          </ul>
+        </nav>
+ <button type="button">Gift Finder</button>
     </header>
     <main>
       <!-- Hero       Kurka Vadim -->
@@ -95,12 +124,69 @@
       </section>
       <!-- skills-end -->
 
+
+
+      <div class="container">
+        <h1>Learn Any Foreign Language</h1>
+        <img src="./images/symbol-defs.svg" alt="lamp" />
+        <p>
+          With our teachers who write a program for each student, you will be
+          able to make your first sketch after the first lesson.
+        </p>
+        <button class="button">Get started</button>
+        <img src="./images/Hero.png" alt="" />
+      </div>
+      <!-- Skills Shnurko Artem-->
+
       <!-- About Vitalii Kablukov-->
+      <section class="section-about">
+        <div class="container">
+          <div class="left-content">
+            <h2 class="aboutus-title">About Us</h2>
+            <p class="aboutus-text">
+              The model offers a framework for discussing problems related to
+              the user's experience, as well as possible ways and means of
+              solving them. Application development begins at the top level
+              (strategy), where the future software product is described quite
+              abstractly from the point of view of the expectations of both
+              users and the customer.
+            </p>
+            <ul class="aboutus-list">
+              <li class="aboutus-list-item">
+                <h3 class="aboutus-list-title">800</h3>
+                <p class="aboutus-list-text">Pupils</p>
+              </li>
+              <li class="aboutus-list-item">
+                <h3 class="aboutus-list-title">18</h3>
+                <p class="aboutus-list-text">Teachers</p>
+              </li>
+              <li class="aboutus-list-item">
+                <h3 class="aboutus-list-title">6</h3>
+                <p class="aboutus-list-text">Foreign languages</p>
+              </li>
+            </ul>
+          </div>
+          <svg class="about-icon" width="540" heigt="540">
+            <use
+              href="./images/symbol-defs.svg#icon-about-us"
+              class="aboutus-svg-icon"
+            ></use>
+          </svg>
+        </div>
+      </section>
       <!-- Pricing  Kaut-->
       <!-- Contacts Vitalii P-->
     </main>
-    <footer>
-      <!-- Volodimir -->
-    </footer>
+    <!-- Volodymyr -->
+      <footer class="page-footer">
+        <div class="contaner page-footer__container">
+          <a href="" class="logo">Brit<span class="logo__accent">lex</span></a>
+          <ul class="list page-footer__list">
+            <li class="page-footer__item">Terms and Conditions</li>
+            <li class="page-footer__item">Privacy Policy</li>
+            <li class="page-footer__item">Cookie Policy</li>
+          </ul>
+        </div>
+      </footer>
   </body>
 </html>
