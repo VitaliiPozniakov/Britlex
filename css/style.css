@@ -48,6 +48,7 @@ address {
   --numbers-colors: #2a3246;
 }
 
+
 /* ----------Start FOOTER---------- */
 .page-footer__container {
   display: flex;
@@ -87,3 +88,80 @@ address {
   margin-right: 80px;
 }
 /* ----------End FOOTER---------- */
+
+/*------ heder oleksandr------*/
+
+.header {
+  border-bottom: 1px solid #eeeeee;
+ 
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+}
+.header-list .item {
+  margin-right: 50px;
+}
+.header-list .item:last-child {
+  margin-right: 0px;
+}
+.header-list .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.logo {
+  margin-right: 93px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #939393;
+}
+.logo-brit {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-title-color);
+}
+/*.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--hover-buton-color);
+}
+.header-list .link.current {
+  color: #2196f3;
+}
+.auth-nav-list {
+  display: flex;
+  margin-left: auto;
+}*/
+
+
+
+
+
+
+
+
+
+
