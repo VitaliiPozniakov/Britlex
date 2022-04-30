@@ -48,6 +48,65 @@ address {
   --numbers-colors: #2a3246;
 }
 
+/* ______________Start section About_______________________ */
+.section-about {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.aboutus-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--prime-title-color);
+  margin-bottom: 60px;
+}
+.aboutus-text {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--main-text-color);
+  margin-bottom: 30px;
+}
+.aboutus-list {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.aboutus-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.aboutus-list-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--numbers-colors);
+  margin-bottom: 6px;
+}
+.aboutus-list-text {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+.section-about .container {
+  width: 1340px;
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  justify-content: center;
+}
+.left-content {
+  width: 652px;
+  margin-right: 142px;
+}
+
+/* ______________End section About_______________________ */
+
+
 
 /* hero Kurka Vadim */
 .container {
@@ -163,6 +222,7 @@ address {
   display: flex;
   margin-left: auto;
 }*/
+
 
 
 
