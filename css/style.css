@@ -123,3 +123,262 @@ color: var(--main-text-color);
   --main-text-color: #8f95a5;
   --numbers-colors: #2a3246;
 }
+
+
+/* -------skills-------- */
+
+.container {
+  width: 1338px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.skills-list {
+  display: flex;
+}
+
+.skills-main-title {
+  text-align: center; 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 1.5;
+color: #000000;
+
+}
+
+.skills-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #263238;
+}
+
+.skills-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #8f95a5;
+}
+
+.skills-button {
+  width: 230px;
+  height: 60px;
+  left: 149px;
+  top: 1773px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  background: #263238;
+  border-radius: 10px;
+}
+
+.skills-cards {
+border: 1px solid pink;
+background: #F5F5F5;
+border-radius: 10px;
+padding-left: 18px;
+padding-right: 18px;
+padding-top: 32px;
+}
+
+.skills-item:nth-child(1n+1) {
+  margin-right: 30px;
+}
+
+.skills-item:last-child {
+  margin-right: 0;
+}
+
+/* ______________Start section About_______________________ */
+.section-about {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.aboutus-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--prime-title-color);
+  margin-bottom: 60px;
+}
+.aboutus-text {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 1.8;
+  color: var(--main-text-color);
+  margin-bottom: 30px;
+}
+.aboutus-list {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.aboutus-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.aboutus-list-title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--numbers-colors);
+  margin-bottom: 6px;
+}
+.aboutus-list-text {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+.section-about .container {
+  width: 1340px;
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  justify-content: center;
+}
+.left-content {
+  width: 652px;
+  margin-right: 142px;
+}
+
+/* ______________End section About_______________________ */
+
+
+
+/* hero Kurka Vadim */
+.container {
+  width: 1337px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ----------Start FOOTER---------- */
+.page-footer__container {
+  display: flex;
+  max-width: 1338px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 22px;
+  padding-bottom: 77px;
+  border-top: 1px solid #8f95a5;
+
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+  line-height: 1.5;
+  color: var(--prime-title-color);
+}
+
+.logo__accent {
+  color: #939393;
+}
+
+.page-footer__list {
+  display: flex;
+  margin-left: auto;
+}
+
+.page-footer__item {
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: var(--main-text-color);
+}
+
+.page-footer__item:not(:last-child) {
+  margin-right: 80px;
+}
+/* ----------End FOOTER---------- */
+
+/*------ heder oleksandr------*/
+
+.header {
+  border-bottom: 1px solid #eeeeee;
+ 
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+}
+.header-list .item {
+  margin-right: 50px;
+}
+.header-list .item:last-child {
+  margin-right: 0px;
+}
+.header-list .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.logo {
+  margin-right: 93px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #939393;
+}
+.logo-brit {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-title-color);
+}
+/*.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--hover-buton-color);
+}
+.header-list .link.current {
+  color: #2196f3;
+}
+.auth-nav-list {
+  display: flex;
+  margin-left: auto;
+}*/
+
+
+
+
+
+
+
+
+
+
+
