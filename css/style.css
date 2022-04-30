@@ -47,3 +47,43 @@ address {
   --main-text-color: #8f95a5;
   --numbers-colors: #2a3246;
 }
+
+/* ----------Start FOOTER---------- */
+.page-footer__container {
+  display: flex;
+  max-width: 1338px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 22px;
+  padding-bottom: 77px;
+  border-top: 1px solid #8f95a5;
+
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+  line-height: 1.5;
+  color: var(--prime-title-color);
+}
+
+.logo__accent {
+  color: #939393;
+}
+
+.page-footer__list {
+  display: flex;
+  margin-left: auto;
+}
+
+.page-footer__item {
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: var(--main-text-color);
+}
+
+.page-footer__item:not(:last-child) {
+  margin-right: 80px;
+}
+/* ----------End FOOTER---------- */
