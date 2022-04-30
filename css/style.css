@@ -39,7 +39,7 @@ address {
   font-style: normal;
 }
 .container {
-  width: 1338px;
+  width: 1378px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -131,12 +131,36 @@ color: var(--main-text-color);
   --numbers-colors: #2a3246;
 }
 
-<<<<<<< Updated upstream
+
 
 /* -------skills-------- */
 
+
+.skills-wraper{
+  display: flex;
+}
+
+.right-content {
+  margin-left: 30px;
+ 
+}
+
+.right-top-content{
+  display: flex;
+   margin-bottom: 30px;
+}
+
+.skills-cards-writing{
+  margin-right: 30px;
+  width: 426px;
+}
+
+.skills-cards-reading{
+width: 426px;
+}
+
 .container {
-  width: 1338px;
+  width: 1378px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -203,6 +227,11 @@ padding-top: 32px;
 
 .skills-item:last-child {
   margin-right: 0;
+}
+
+.skills-cards-listening{
+  width: 882px;
+  display: flex;
 }
 
 /* ______________Start section About_______________________ */
@@ -393,7 +422,8 @@ padding-top: 32px;
 =======
 /* -----------------Contacts------------ */
 
-.contact-wraper {
+
+.contact-wraper{
   display: flex;
 }
 
