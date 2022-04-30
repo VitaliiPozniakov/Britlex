@@ -48,9 +48,128 @@ address {
   --numbers-colors: #2a3246;
 }
 
+
 /* hero Kurka Vadim */
 .container {
   width: 1337px;
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* ----------Start FOOTER---------- */
+.page-footer__container {
+  display: flex;
+  max-width: 1338px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 22px;
+  padding-bottom: 77px;
+  border-top: 1px solid #8f95a5;
+
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+  line-height: 1.5;
+  color: var(--prime-title-color);
+}
+
+.logo__accent {
+  color: #939393;
+}
+
+.page-footer__list {
+  display: flex;
+  margin-left: auto;
+}
+
+.page-footer__item {
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: var(--main-text-color);
+}
+
+.page-footer__item:not(:last-child) {
+  margin-right: 80px;
+}
+/* ----------End FOOTER---------- */
+
+/*------ heder oleksandr------*/
+
+.header {
+  border-bottom: 1px solid #eeeeee;
+ 
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+}
+.header-list .item {
+  margin-right: 50px;
+}
+.header-list .item:last-child {
+  margin-right: 0px;
+}
+.header-list .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.logo {
+  margin-right: 93px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #939393;
+}
+.logo-brit {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-title-color);
+}
+/*.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--hover-buton-color);
+}
+.header-list .link.current {
+  color: #2196f3;
+}
+.auth-nav-list {
+  display: flex;
+  margin-left: auto;
+}*/
+
+
+
+
+
+
+
+
+
+
