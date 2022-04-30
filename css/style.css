@@ -93,6 +93,8 @@ address {
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
+  text-align: center;
+  justify-content: center;
 }
 .left-content {
   width: 652px;
