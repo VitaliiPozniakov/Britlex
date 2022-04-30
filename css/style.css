@@ -47,3 +47,10 @@ address {
   --main-text-color: #8f95a5;
   --numbers-colors: #2a3246;
 }
+
+/* hero Kurka Vadim */
+.container {
+  width: 1337px;
+  margin-left: auto;
+  margin-right: auto;
+}
