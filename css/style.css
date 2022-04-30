@@ -70,6 +70,8 @@ address {
 .aboutus-list {
   display: flex;
   text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
 }
 .aboutus-list-item:not(:last-child) {
   margin-right: 30px;
@@ -93,7 +95,7 @@ address {
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
+
   justify-content: center;
 }
 .left-content {
