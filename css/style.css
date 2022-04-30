@@ -49,6 +49,14 @@ address {
 }
 
 
+/* hero Kurka Vadim */
+.container {
+  width: 1337px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* ----------Start FOOTER---------- */
 .page-footer__container {
   display: flex;
