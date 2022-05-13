@@ -144,7 +144,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--main-text-title-color);
 }
-/*.header-list .link:hover,
+.header-list .link:hover,
 .header-list .link:focus {
   color: var(--hover-buton-color);
 }
@@ -154,9 +154,9 @@ address {
 .auth-nav-list {
   display: flex;
   margin-left: auto;
-}*/
+}
 
-
+/*-----end heder------*/
 
 
 
