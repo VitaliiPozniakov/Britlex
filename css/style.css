@@ -54,3 +54,11 @@ address {
   margin-left: auto;
   margin-right: auto;
 }
+.icon-sprite {
+  width: 70.39px;
+  height: 53.49px;
+  background-image: url(src="../");
+  background-position: 0;
+  background-repeat: no-repeat;
+
+}
